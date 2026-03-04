@@ -25,8 +25,6 @@ export default function Home() {
         Go to About
       </button>
 
-
-
       <div>
         <img src="/next.svg" alt="Vercel Logo" style={{ width: "250px" }} />{" "}
         <br />
