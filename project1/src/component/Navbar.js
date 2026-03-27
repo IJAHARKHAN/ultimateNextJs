@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Navbar() {
     const path = usePathname();
-    // console.log('Current path:', path);
+  //  console.log('Current path:', path);
   return (
     <div className='w-full h-20 bg-white flex items-center justify-between px-10 text-black sticky top-0 z-10'>
         <div className='font-bold text-2xl'>🌐 UI Next App</div>
