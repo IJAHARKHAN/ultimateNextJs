@@ -7,6 +7,6 @@ export default function page() {
    const { country } = params;
    console.log('parallelCountry', params)
   return (
-    <div>Parallel Info for {country}</div>
+    <div> <span className='text-amber-300'>{country}</span> is a breathtaking destination filled <br /> with natural wonders and thrilling adventures!</div>
   )
 }
