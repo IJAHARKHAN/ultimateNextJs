@@ -8,7 +8,7 @@ export default function Navbar() {
   //  console.log('Current path:', path);
   return (
     <div className='w-full h-20 bg-white flex items-center justify-between px-10 text-black sticky top-0 z-10'>
-        <div className='font-bold text-2xl'>🌐 UI Next App</div>
+        <div className='font-bold text-2xl'> <Link href="/" className={path === '/' ? 'text-black' : ''}>🌐 UI Next App</Link></div>
         <div>
             <ul className='flex gap-5'>
                 <li> <Link href="/" className={path === '/' ? 'text-blue-500' : ''}>Home</Link> </li>
