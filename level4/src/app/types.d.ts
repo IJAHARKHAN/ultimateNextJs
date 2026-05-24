@@ -7,6 +7,8 @@ declare global{
         name: string;
         age: number;
     }
+
+    type globalStringA = string | number | boolean;  // Union type that can be a string, number, or boolean
 }
 
 export {}

@@ -120,8 +120,12 @@ let printMoon:Moon = {
     name: "Luna",
     age: 4.5
 }
-
 console.log("printMoon:", printMoon);
+
+let globalStringGetOne: globalStringA = "This is a global string type";
+let globalStringGetTwo: globalStringA = 42;
+let globalStringGetThree: globalStringA = true;
+console.log("Global String One:", globalStringGetOne);
 
 
 // https://www.w3schools.com/js/exercise.asp?x=xrcise_object_property3
