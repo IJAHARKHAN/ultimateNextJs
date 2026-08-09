@@ -6,8 +6,7 @@ export default function Home() {
 
   const [users, setUsers] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
+  const fetchData = async () => {
       try {
         const response = await fetch("/api/users");
         const data = await response.json();
@@ -17,13 +16,13 @@ export default function Home() {
       }
     };
 
+  useEffect(() => {   
+
     fetchData();
   }, []);
   return (
     <>
     <h1 className="text-center text-2xl my-3">Moon Khan</h1>
-
-
     
     <table className="table-auto border-collapse border border-slate-500 w-[50%] mx-auto">
   <thead>
