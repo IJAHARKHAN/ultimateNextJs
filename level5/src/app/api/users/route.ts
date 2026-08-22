@@ -28,6 +28,8 @@ export async function POST(request: NextRequest) {
   });
 }
 
+// http://localhost:3000/api/users
+
 // export async function POST(request: NextRequest) {
 //   const body = await request.json();
 

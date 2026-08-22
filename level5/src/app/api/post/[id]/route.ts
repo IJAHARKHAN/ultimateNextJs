@@ -16,3 +16,5 @@ export async function GET(request: NextRequest, { params }: ParameterDecorator) 
     mobile: "123-456-7890"
   });
 }
+
+// http://localhost:3000/api/post/20
