@@ -18,9 +18,11 @@ import mongoose from "mongoose";
 // export default User
 
 
-/// khan7oct_db_user
+/// khan7oct_db_user  --- userID
 
-// 1ZiX2DfpQrXadN3W
+// 1ZiX2DfpQrXadN3W  --- Password
+
+// mongodb+srv://<db_username>:1ZiX2DfpQrXadN3W@cluster0.jrdf315.mongodb.net/   -- for VS Code
 interface IUser {
     _id?: mongoose.Types.ObjectId;
     name: string;
